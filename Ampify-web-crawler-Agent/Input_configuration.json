@@ -1,0 +1,46 @@
+{
+    "aggressivePrune": false,
+    "clickElementsCssSelector": "[aria-expanded=\"false\"], button, a.load-more",
+    "clientSideMinChangePercentage": 10,
+    "crawlerType": "jsdom",
+    "debugLog": true,
+    "debugMode": false,
+    "dynamicContentWaitSecs": 5,
+    "expandIframes": true,
+    "htmlTransformer": "readableText",
+    "ignoreCanonicalUrl": false,
+    "initialConcurrency": 50,
+    "keepUrlFragments": false,
+    "maxConcurrency": 250,
+    "maxCrawlDepth": 25,
+    "maxCrawlPages": 1000000,
+    "maxRequestRetries": 8,
+    "maxResults": 9999999,
+    "maxScrollHeightPixels": 10000,
+    "maxSessionRotations": 15,
+    "minFileDownloadSpeedKBps": 128,
+    "proxyConfiguration": {
+        "useApifyProxy": true,
+        "apifyProxyGroups": ["RESIDENTIAL"],
+        "apifyProxyCountry": "US"
+    },
+    "readableTextCharThreshold": 80,
+    "removeCookieWarnings": true,
+    "removeElementsCssSelector": "nav, footer, script, style, noscript, svg, img[src^='data:'], aside, iframe[src*='ads'], [role=\"alert\"], [role=\"banner\"], [role=\"dialog\"], [role=\"alertdialog\"], [role=\"region\"][aria-label*=\"skip\" i], [aria-modal=\"true\"]",
+    "renderingTypeDetectionPercentage": 15,
+    "requestTimeoutSecs": 90,
+    "saveFiles": true,
+    "saveHtml": true,
+    "saveHtmlAsFile": true,
+    "saveMarkdown": true,
+    "saveScreenshots": false,
+    "startUrls": [
+        {
+            "url": "https://daraz.com.np",
+            "method": "GET"
+        }
+    ],
+    "useSitemaps": true,
+    "includeUrlGlobs": ["https://daraz.com.np/**"],
+    "excludeUrlGlobs": ["*logout*", "*login*", "*cart*"]
+}
