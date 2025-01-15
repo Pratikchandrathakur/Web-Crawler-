@@ -36,11 +36,11 @@
     "saveScreenshots": false,
     "startUrls": [
         {
-            "url": "https://daraz.com.np",
+            "url": "https://xyz.com",
             "method": "GET"
         }
     ],
     "useSitemaps": true,
-    "includeUrlGlobs": ["https://daraz.com.np/**"],
+    "includeUrlGlobs": ["https://xyz.com/**"],
     "excludeUrlGlobs": ["*logout*", "*login*", "*cart*"]
 }
